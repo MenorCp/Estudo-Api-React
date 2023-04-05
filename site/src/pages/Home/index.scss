@@ -2,5 +2,71 @@
     width: 100vw;
     height: 100vh;
 
-    background-color: rgb(226, 85, 85);
+    background-color: rgb(226, 180, 180);
+
+    .cabecalho-home{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 9rem;
+        background-color: #EE2828;
+
+        /*LOGO DA PAGINA*/
+        .logo-home{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 23rem;
+            height: 80%;
+            gap: 10px;
+
+            border: 0.1px solid black;
+            
+            /*Icone do logo da pagina*/
+            .icon-logo-home{
+                width: 65px;
+                height: 65px;
+            }
+            /*Titulo do logo ( STACK GAMES )*/ 
+            .title-logo{
+                font-family: 'IBM Plex Sans Thai', sans-serif;
+                font-weight: 700;
+
+                color: #fff;
+            }
+        }
+
+        /*CATEGORIA | LANÇAMENTO | PROMOÇÃO*/
+        .navegacao-home{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            width: 42.5rem;
+            height: 80%;
+
+            border: 0.1px solid black;
+
+            .title-categorias-home{
+                
+            }
+            .title-lancamento-home{
+
+            }
+            .title-promocoes-home{
+
+            }
+        }
+
+        /*BUSCAR PRODUTOS*/
+        .busca-home{
+            width: 30rem;
+            height: 80%;
+
+            border: 0.1px solid black;
+        }
+    }
 }
