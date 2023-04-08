@@ -1,0 +1,78 @@
+.container-cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 8rem;
+        padding: 30px;
+        background-color: #EE2828;
+
+        .icon-menu{
+            width: 35px;
+            height: 35px;
+        }
+        .cont-logo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 20em;
+            height: 100px;
+            
+
+            .icon-logo{
+                width: 60px;
+                height: 60px;
+                margin-bottom: -5px;
+            }
+            .title-logo{
+                margin: 0px;
+                font-size: 32px;
+                font-weight: 700;
+                letter-spacing: -0.070em;
+                font-family: 'IBM Plex Sans Thai', sans-serif;
+                color: #fff;                
+            }
+        }
+        .cont-login{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 15em;
+            height: 90px;
+
+            .icon-login{
+                width: 50px;
+                height: 50px;
+            }
+
+            .cont-info-login{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 70%;
+                height: 80%;
+            
+                .titles-login{
+                    font-family: 'IBM Plex Sans Thai';
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 40px;
+                    letter-spacing: -0.06em;
+                    color: #fff;
+                    height: 1.2em;
+                }
+                .titles-login2{
+                    font-family: 'IBM Plex Sans Thai';
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 40px;
+                    letter-spacing: -0.06em;
+                    color: #fff;
+                }
+            }
+            
+        }
+}

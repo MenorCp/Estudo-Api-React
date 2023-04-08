@@ -18,7 +18,10 @@ server.get('/ping', (req, resp) => {
 server.get('/dobro/:numero', (req, resp) => {
     let numero = req.params.numero;
     let dobro = numero * 2;
-    resp.send(String(dobro));
+    let resposta = {
+        dobro: dobro
+    }
+    resp.send(resposta);
 })
 
 server.listen(process.env.PORT,
